@@ -76,7 +76,7 @@ It contributes to broader efforts around biodiversity, pollination, and environm
 
 ## 🙏 Acknowledgments
 
-This project was a collaborative effort with [Mehwishh Feroz](https://github.com/MehwishhFeroz).  
+This project was a collaborative effort with [Mehwishferoz](https://github.com/Mehwishferoz).  
 The final submission was made through her account, as per competition guidelines.
 
 ![DataCamp Winner](win.png)
