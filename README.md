@@ -1,42 +1,90 @@
-# 🐝 Bee Friendly Plants Competition 🏆
+# 🐝 Bee-Friendly Plants – Classification & Analysis
 
 ![Bee Friendly Plants](image.png)
 
-## 🌟 Overview
-This repository contains my submission for the [DataCamp Bee Friendly Plants Competition](https://app.datacamp.com/learn/competitions/bee-friendly-plants), where I placed first and won DataCamp merchandise. The competition challenged participants to identify plants that are beneficial for bees using data science techniques.
+This project earned **1st place** in the [DataCamp Bee Friendly Plants Competition](https://app.datacamp.com/learn/competitions/bee-friendly-plants), where participants built machine learning models to classify bee-friendly plants.  
+The solution was selected for its balance of performance, clarity, and insight.
 
-## 🌸 Project Description
-In this competition, the goal was to analyze various plant species to determine their suitability for bees. The dataset included features such as flower color, bloom time, and habitat.
+---
 
-## 🔍 Approach
+## 🌸 Overview
 
-### 🛠️ Data Preprocessing
-- **Data Cleaning:** Handled missing values and outliers.
-- **Normalization:** Scaled numerical features for better model performance.
+The goal of this project was to classify plants as bee-friendly or not, based on ecological and botanical features.  
+It contributes to broader efforts around biodiversity, pollination, and environmental sustainability.
+
+---
+
+## 🎯 Project Objectives
+
+- Explore the relationship between plant characteristics and bee-friendliness
+- Clean and prepare real-world plant data
+- Train predictive models for classification
+- Derive insights that support environmental decision-making
+
+---
+
+## 🧠 My Contributions
+
+- Conducted data cleaning, EDA, and visualization
+- Engineered relevant features and handled preprocessing
+- Built and compared machine learning models (Random Forest, Gradient Boosting, etc.)
+- Performed hyperparameter tuning and cross-validation
+- Documented model insights and interpreted results
+
+---
+
+## 🛠 Tools & Technologies
+
+- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Techniques**: One-hot encoding, normalization, feature engineering  
+- **Validation**: k-fold cross-validation, metric-based evaluation  
+- **Notebook**: Jupyter  
+- **Dataset**: `plants_and_bees.csv` from DataCamp
+
+---
+
+## 🔬 Approach
+
+### 🔧 Data Preprocessing
+- Handled missing values and outliers
+- Scaled and normalized numeric features
+- Encoded categorical variables (e.g., flower color, bloom time)
 
 ### 🧩 Feature Engineering
-- **New Features:** Created additional features based on domain knowledge.
-- **Encoding:** Converted categorical variables into numerical format using techniques like one-hot encoding.
+- Created new features based on botanical knowledge
+- Identified most predictive variables for bee-friendliness
 
 ### 🤖 Model Building
-- **Models Used:** Tried multiple models including Random Forest, Gradient Boosting, and Neural Networks.
-- **Hyperparameter Tuning:** Used Grid Search and Random Search to find the best parameters.
-- **Cross-Validation:** Implemented k-fold cross-validation to ensure model robustness.
+- Tested models: Random Forest, Gradient Boosting, Neural Networks
+- Tuned hyperparameters using Grid Search and Random Search
+- Validated using k-fold cross-validation
 
 ### 📊 Evaluation
-- **Metrics:** Evaluated models using metrics such as accuracy, precision, recall, and F1 score.
-- **Final Model:** Selected the best-performing model based on evaluation metrics and used it for the final predictions.
+- Evaluated with accuracy, precision, recall, and F1-score
+- Selected model with optimal balance of performance and interpretability
 
-## 🏅 Results
-The final model achieved outstanding results, leading to a first-place finish in the competition. Here are some key findings:
-- **Important Features:** Identified the most important features influencing the suitability for bees.
-- **Model Performance:** Detailed performance metrics of the final model.
+---
 
-## 📂 Notebooks and Code
-- **Data Analysis and Model Building:** All the steps mentioned above are detailed in the [notebook](notebook.ipynb).
-- **Data:** The dataset used for this project can be found in the `data` directory ([plants_and_bees.csv](data/plants_and_bees.csv)).
+## 📁 Repository Structure
+
+- `notebook.ipynb` – full project analysis  
+- `data/plants_and_bees.csv` – cleaned dataset  
+- `datacamp_workspace_export_...csv` – additional files  
+- Images: `image.png`, `win.png`
+
+---
 
 ## 🙏 Acknowledgments
-I would like to thank DataCamp for organizing this competition and providing a platform to showcase and enhance our data science skills.
+
+This project was a collaborative effort with [Mehwishh Feroz](https://github.com/MehwishhFeroz).  
+The final submission was made through her account, as per competition guidelines.
 
 ![DataCamp Winner](win.png)
+
+---
+
+## 📌 Status
+
+✅ Completed and Published  
+🏆 Placed 1st in DataCamp Competition  
+📂 Ready for resume, GitHub, and LinkedIn portfolio
